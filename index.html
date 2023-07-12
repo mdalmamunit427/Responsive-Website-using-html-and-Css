@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website using html and Css</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+        <nav class="nav">
+            <h3><span style="color: #0d6efd;">CREATIVE</span><span>ART</span></h3>
+            <div class="menu"><i class="fa-solid fa-bars"></i></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- hero section -->
+    <section class="hero-container">
+      <!-- content -->
+      <div class="content">
+        <h2>Art of Design</h2>
+        <p>
+          Powerful, extensible, and feature-packed frontend toolkit. Build and
+          customize with Sass, utilize prebuilt grid system and components, and
+          bring projects to life with powerful JavaScript plugins.
+        </p>
+        <div>
+          <button class="btn">
+            <i class="fa-regular fa-circle-play"></i> Free Consultation
+          </button>
+          <button class="btn-outline">Buy Credits</button>
+        </div>
+      </div>
+
+      <!-- animated blob -->
+      <div>
+        <div class="blob"></div>
+      </div>
+    </section>
+
+    <!-- about me section -->
+    <section  id="about">
+      <div class="about"> 
+        <h2>About Me</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+          consectetur quas iure tempora, magnam aliquid voluptatum sit,
+          voluptates odit alias veniam quos sapiente cupiditate itaque.
+          Voluptatum sint corrupti enim ab!
+        </p>
+      </div>
+
+      <!-- about details -->
+      <div class="container">
+        <!-- left side -->
+        <div class="left-side">
+          <img src="img/woman.jpg" alt="" />
+        </div>
+        <!-- right side -->
+        <div class="right-side">
+          <h2>So, Who Am I?</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            aliquid quia similique, ex obcaecati dolore reiciendis vel enim
+            corrupti nihil dolor labore maiores aliquam fugit debitis officia
+            minima rerum consequatur?
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+            sapiente ipsa sequi deserunt dolorum saepe voluptatibus consectetur
+            excepturi nobis quidem voluptate repellendus, cum corrupti mollitia
+            est asperiores quas sit veniam?
+          </p>
+          <button class="btn">Contact me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service section -->
+    <section  id="services">
+      <div class="about">
+        <h2>Our Services</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+          consectetur quas iure tempora, magnam aliquid voluptatum sit,
+          voluptates odit alias veniam quos sapiente cupiditate itaque.
+          Voluptatum sint corrupti enim ab!
+        </p>
+      </div>
+
+      <div class="services">
+        <div class="service-card">
+          <div class="number">01</div>
+          <div class="service-text">
+            <h3>First Service</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis asperiores repudiandae, tenetur voluptatibus nobis
+              dolores.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="number">02</div>
+          <div class="service-text">
+            <h3>Second Service</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis asperiores repudiandae, tenetur voluptatibus nobis
+              dolores.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="number">03</div>
+          <div class="service-text">
+            <h3>Third Service</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis asperiores repudiandae, tenetur voluptatibus nobis
+              dolores.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact me section -->
+    <section id="contact">
+      <div class="about">
+        <h2>Contact</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+          consectetur quas iure tempora, magnam aliquid voluptatum sit,
+          voluptates odit alias veniam quos sapiente cupiditate itaque.
+          Voluptatum sint corrupti enim ab!
+        </p>
+      </div>
+
+      <div class="container">
+        <!-- left side -->
+        <div class="left-side">
+          <img src="img/contact.png" alt="" />
+        </div>
+        <!-- right side -->
+        <div class="right-side">
+          <h2>Let's talk. <br />Tell me more about your project!</h2>
+          <div class="form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Type your name here" />
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Your email address here" />
+            <label for="email">Messages:</label>
+            <textarea name="message" id="message" cols="50" rows="10" placeholder="Message"></textarea>
+          </div>
+
+          <button class="btn">Send Message</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <div class="footer-container">
+            <div>
+                <h3>CREATIVEART</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ad officia totam quae natus voluptate consectetur adipisicing elit.</p>
+                 <p>@copyright 2023 || All rights preserved by <a href="">Md Al Mamun</a></p>
+            </div>
+            <div>
+                <h3>SOCIAL LINKS</h3>
+                <div class="social-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
